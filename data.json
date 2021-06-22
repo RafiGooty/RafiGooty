@@ -1,0 +1,44 @@
+[
+    {
+
+        "userId": "dafd1349-dff6-4de8-af06-52ed904649a8",
+  
+        "ruleDefinition": {  
+            "name": "Amount > 1000",
+              "description": "Check if amount is greater than 1000",
+              "order": 1,
+              "isMandatory": true,
+              "operator": "Greater Than",
+              "inputs": [
+                  {
+                      "name": "centsAmount",
+                      "value": "1000"
+                  }
+                  ]
+  
+        }
+  
+   
+  
+    },
+  
+    {
+  
+        "userId": "dafd1349-dff6-4de8-af06-52ed904649a8",
+          "ruleDefinition": {
+              "name": "Amount > 10",
+              "description": "Check if amount is greater than 10",
+              "order": 2,
+              "isMandatory": true,
+              "operator": "Greater Than",
+              "inputs": [
+                  {
+                      "name": "centsAmount",
+                      "value": "10"
+                  }
+  
+            ]
+         }
+ 
+    }
+]
